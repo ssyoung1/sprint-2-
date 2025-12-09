@@ -10,3 +10,4 @@ This sprint adds:
 - Favicon
 - Social media meta tags for link previews
 - Structure that can be used with Google Analytics campaign links
+- https://www.linkedin.com/feed/
