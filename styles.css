@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 1rem 3rem;
+    line-height: 1.5;
+}
+
+header, footer {
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    max-width: 320px;
+    background-color: #222;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    display: none;
+    font-size: 0.9rem;
+}
+
+.cookie-popup a {
+    color: #7fc9ff;
+    text-decoration: underline;
+}
+
+.cookie-popup button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
